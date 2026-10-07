@@ -1,0 +1,8 @@
+sources = ["demo"]
+poll_seconds = 60
+[delivery]
+enabled = false
+[matching]
+target_roles = ["Product Designer", "Продуктовый дизайнер"]
+excluded_roles = ["Sales Manager"]
+keywords = ["Figma", "UX research"]

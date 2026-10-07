@@ -1,0 +1,21 @@
+{
+  "example_only": true,
+  "name": {"ru": "Тестовый Кандидат", "en": "Demo Candidate"},
+  "constraints": "FICTIONAL EXAMPLE. Replace all facts with the candidate's verified experience before use. Never invent years, tools, outcomes, language level, leadership or work authorization.",
+  "facts": [
+    {
+      "id": "prototypes",
+      "keywords": ["Figma", "prototype", "прототип"],
+      "ru": "В учебном проекте подготовил интерактивный прототип интерфейса в Figma и уточнил его по результатам обратной связи.",
+      "en": "In a training project, I prepared an interactive interface prototype in Figma and refined it using feedback.",
+      "topic": {"ru": "Прототипирование интерфейсов", "en": "Interface prototyping"}
+    },
+    {
+      "id": "research",
+      "keywords": ["research", "интервью", "исследован"],
+      "ru": "В учебном проекте провёл интервью с пользователями, сгруппировал наблюдения и сформулировал предложения по улучшению интерфейса.",
+      "en": "In a training project, I interviewed users, grouped the findings and proposed interface improvements.",
+      "topic": {"ru": "Исследования пользователей", "en": "User research"}
+    }
+  ]
+}

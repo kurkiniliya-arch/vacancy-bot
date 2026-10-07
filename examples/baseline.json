@@ -1,0 +1,12 @@
+{
+  "source": "demo",
+  "complete": true,
+  "posts": [
+    {
+      "source": "demo",
+      "post_id": 1,
+      "text": "Product Designer at Example Studio\nRemote\nFigma, UX research\nThis is a fictional older vacancy for the offline demo.",
+      "original_url": "https://t.me/demo/1"
+    }
+  ]
+}

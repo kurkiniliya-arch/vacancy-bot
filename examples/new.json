@@ -1,0 +1,24 @@
+{
+  "source": "demo",
+  "complete": true,
+  "posts": [
+    {
+      "source": "demo",
+      "post_id": 1,
+      "text": "Product Designer at Example Studio\nRemote\nFigma, UX research\nThis is a fictional older vacancy for the offline demo.",
+      "original_url": "https://t.me/demo/1"
+    },
+    {
+      "source": "demo",
+      "post_id": 2,
+      "text": "Product Designer at Example Studio\nLocation: Remote\nSalary: EUR 3000\nFigma, UX research\nDesign and validate prototypes with the product team.\nFictional demo, not an actual job.",
+      "original_url": "https://t.me/demo/2"
+    },
+    {
+      "source": "demo",
+      "post_id": 3,
+      "text": "Sales Manager\nCollaborate with a Product Designer using Figma.\nFictional demo, not an actual job.",
+      "original_url": "https://t.me/demo/3"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Copy to config.local.toml and fill in your own channels and matching policy.
+# Empty defaults deliberately prevent an unconfigured live launch.
+sources = []
+poll_seconds = 60
+
+[delivery]
+enabled = false
+
+[matching]
+target_roles = []
+excluded_roles = []
+# Keywords add evidence to cards; they do not broaden title matching by default.
+keywords = []
+# Every required phrase must occur anywhere in the post. Optional, can reduce recall.
+required_keywords = []
+# Any excluded phrase anywhere in the post rejects it. Keep this list narrow.
+excluded_keywords = []
+allow_keyword_only = false
+
+[local_model]
+# Optional second opinion about the advertised role. Requires locally installed Ollama/model.
+enabled = false
+model = "qwen3:4b"
+
+[applications]
+# Optional TXT cover letter. No CV or PDF is sent.
+enabled = false
+# Relative to this configuration file. Keep the real profile out of Git.
+profile_dir = ".local/profile"
+use_model = false
+# Public HTML pages explicitly linked from the vacancy, not a general web search.
+research = false

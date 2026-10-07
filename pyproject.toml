@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-vacancy-bot"
+version = "0.2.0"
+description = "Configurable personal Telegram vacancy monitor with optional local cover letters"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["jobbot"]

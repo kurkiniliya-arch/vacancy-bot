@@ -1,0 +1,17 @@
+[Unit]
+Description=Personal vacancy monitor
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=%h/apps/vacancy-bot
+ExecStart=/usr/bin/python3 -m jobbot.runtime --config %h/.config/vacancy-bot/config.toml --database %h/.local/state/vacancy-bot/live.sqlite --credentials %h/.local/state/vacancy-bot/credentials.json --send
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=yes
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
